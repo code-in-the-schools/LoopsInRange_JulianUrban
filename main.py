@@ -16,3 +16,14 @@ for i in range(k):
   k+1
   print(k)
 print()
+
+#assign variables
+leftBorder = input("What should the left border be?")
+rightBorder = input("What should the right border be?")
+inner = input("What should the inner character be?")
+name = input("What is your name?")
+length = input("How long should the drawing be?")
+
+#build the drawing
+for i in range (length):
+  print
